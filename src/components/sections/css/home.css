@@ -1,0 +1,49 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url('../../img/bg/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+}
+
+.onhome{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+.onhome>img{
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    transition: opacity 10s;
+    transform: translateY(100px)
+}
+
+.onhome>h1,.onhome>p{
+    transform: translateY(100px);
+    color: white;
+}
+.onhome>p{
+    font-size: 24px;
+}
+.onhome>h1{
+    font-size: 60px;
+}
+
+.onhome>h1>span{
+    color: aqua;
+}
+
+
+ 

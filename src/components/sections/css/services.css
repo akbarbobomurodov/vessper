@@ -1,0 +1,73 @@
+.services{
+    width: 100%;
+    height: 700px;
+    background: url('../../img/bg/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.services>h1{
+    padding-top: 120px;
+    padding-bottom: -3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.8;
+    color: white;
+}
+
+.services>span{
+    width: 13%;
+    height: 3px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.services>p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    opacity: 0.7;
+    text-transform: capitalize;
+    color: white;
+}
+
+.services>div{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services>div>div{
+    width: 24%;
+    height: 80%;
+    background: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.services>div>div>h4{
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px #333;
+    opacity: 0.9;
+}
+.services>div>div>img{
+  width: 20%;
+  height: 20%;
+  margin-bottom: 30px;
+}
+.services>div>div>p{
+    opacity: 0.8;
+}
+.services>div>div>a{
+    color: white !important;
+    font-weight: 500 !important;
+}

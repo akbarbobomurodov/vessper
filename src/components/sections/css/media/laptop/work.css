@@ -1,0 +1,159 @@
+@media screen and (min-width:1023px){
+    .con{    
+        width: 90%;  
+        height: 900px;
+    }
+    .con>div{
+        height: 50%;
+    }
+     .works>p{
+      text-align: center;
+     }
+     .btngroup{
+         width: 90%;
+     }
+ 
+     .all1{
+   opacity: 1;
+   transition:display 1s;
+   -webkit-transition: opacity 5s;
+
+}
+
+button[name='all'],button[name="web"],button[name="brand"],button[name='graphic']{
+  background: blue;
+
+}
+
+.all2{
+  transform: translateX(0%);
+  transition: transform 0s,opacity 6500ms;
+}
+.all3{
+   transform: translateX(0%);
+ transition: transform 1200ms,opacity 4500ms;
+}
+.all4{
+   transform: translateX(0%);
+ transition: transform 2s,opacity 2500ms;
+}
+
+.all5{
+  transform: translateY(0%);
+  transition: transform 0s,opacity 7500ms;
+}
+
+.all6{
+ transform: translate(0%,0%);
+  transition: transform 500ms,opacity 5500ms;
+}
+
+.all7{
+ transform: translate(0%,0%);
+  transition: transform 1s,opacity 3500ms;
+}
+
+.all8{
+ transform: translate(0%,0%);
+  transition: transform 2s;
+}
+
+.all11{
+ opacity: 0;
+ transition: opacity 1s;
+}
+.all22{
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0s,opacity 1500ms;
+}
+.all33{
+   transform: translateX(-200%);
+   opacity: 0;
+ transition: transform 1s,opacity 3500ms;
+}
+.all44{
+   transform: translateX(-300%);
+   opacity:0;
+ transition: transform 1500ms,opacity 5500ms;
+}
+.all55{
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0s, opacity 500ms;
+}
+.all66{
+ transform: translate(-100%,-100%);
+ opacity:0;
+  transition: transform 500ms,opacity 2500ms;
+}
+.all77{
+ transform: translate(-200%,-100%);
+ opacity:0;
+  transition: transform 1s,opacity 4500ms;
+}
+.all88{
+ transform: translate(-300%,-100%);
+  transition: transform 2s;
+}
+
+/*button web categories */
+
+.web5,.web6,.web7,.web8{
+  opacity:0;
+  transition: opacity 1s;
+}
+.web3 {
+  transform: translate(0%);
+  opacity: 0;
+  transition: transform 1000ms,opacity 1200ms;
+}
+.web4 {
+  transform: translate(0%);
+  opacity: 0;
+  transition: transform 1200ms,opacity 1400ms;
+}
+
+/* button brand categories */
+
+.brand3{
+  transform: translateX(-200%);
+  transition: transform 1s;
+}
+.brand4{
+  transform: translateX(-200%);
+  transition: transform 1500ms;
+}
+.brand1,.brand2,.brand5,.brand7,.brand8{
+   opacity: 0;
+   transition: opacity 1s;
+}
+
+.brand6{
+  transform:translate(0%);
+  opacity: 0;
+  transition: transform 1000ms,opacity 1200ms;
+}
+/* button graphic categories */
+
+.graphic1,.graphic2  ,.graphic5,.graphic7, .graphic8{
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.graphic3{
+  transform: (0%);
+  opacity: 0;
+  transition: transform 1s,opacity 1200ms;
+}
+.graphic4{
+  transform: (0%);
+  opacity: 0;
+  transition: transform 1200ms,opacity 1400ms;
+}
+.graphic6{
+  transform: translate(-100%,-100%);
+  transition: transform 1500ms;
+}
+
+}

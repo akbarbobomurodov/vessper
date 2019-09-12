@@ -1,0 +1,20 @@
+@media screen and (max-width:376px ){
+    .home{
+        display: block;
+    }
+    .onhome{
+        margin: auto;
+        width: 90%;
+    }
+    .onhome>img{
+      width: 150px;
+      height: 150px;
+    }
+    .home>.onhome>h1{
+      font-size: 30px;
+      padding-top: 20px;
+    }
+    .home>.onhome>p{
+      font-size: 16px;
+    }
+}

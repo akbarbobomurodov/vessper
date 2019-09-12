@@ -1,0 +1,56 @@
+@media screen and (max-width:376px){
+    .contact{
+      height: auto;
+    }
+    .contact>div{
+      width: 100%;
+    }
+    .contact>h1{
+      padding-top: 70px;
+      font-size: 30px;
+    }
+    .contact>p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .yourdata{
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .office{
+      height: auto;
+    }
+    .contactp{
+      display: inherit;
+      padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:769px){
+   .contact{
+      height: auto;
+    }
+    .contact>div{
+      width: 100%;
+    }
+    .contact>p{
+        text-align: center;
+    }
+     .yourdata{
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .office{
+      height: auto;
+    }
+    .contactp{
+      display: inherit;
+      padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1025px){
+  .contact>p{
+    text-align: center;
+  }
+}

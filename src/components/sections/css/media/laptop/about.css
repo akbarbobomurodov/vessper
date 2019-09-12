@@ -1,0 +1,8 @@
+@media screen and (min-width:1023px){
+    .about>p{
+        text-align:center;
+    }
+    .about>div{
+        width: 90%;
+    }
+}

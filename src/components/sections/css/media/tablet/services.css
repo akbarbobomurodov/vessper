@@ -1,0 +1,14 @@
+@media screen and (min-width:767px){
+    .services>p{
+        text-align: center;
+    }
+    .services{
+        height: auto;
+    }
+    .services>div{
+        height: 600px;
+    }
+    .services>div>div{
+        height: 50%;
+    }
+}

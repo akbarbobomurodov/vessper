@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px){
+    .parentnavbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: black;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        transition: background 2s;
+       border-bottom: 0.5px solid #666;
+       z-index: 2;
+    }
+    .selfnavbar{
+        width: 80%;
+        height: 100%;
+        background: black;
+        transition: background 2s;
+    }
+
+    .nav-item>.nav-link{
+        color: white !important;
+        font-weight: bold;
+    }
+
+   .dropdown-toggle{
+     display: inline-block;
+    width: 1.25em;
+    text-align: center;
+ }
+
+
+    .self-nav{
+        width: 60%;
+    }
+
+  .active{
+       padding: 5px 25px;
+       background: blue;
+       margin-right: 40px;
+       border-radius: 10px;  
+   }
+
+   .dropdown-toggle{
+       padding: 0;
+   }
+
+}
+
+
+.self-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.self-brand:hover{
+    color: white;
+}
+
+.self-brand>span{
+    text-shadow: -6px 0  #333;
+}
+
+img[alt="home"]{
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    margin: 10px 30px 10px 40px;
+   cursor: pointer;
+   z-index: 2;
+}

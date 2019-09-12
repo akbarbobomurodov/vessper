@@ -1,0 +1,11 @@
+@media screen and (min-width:767px){
+  .about>div{
+      height: 850px;
+  }
+  .about>p{
+      text-align: center;
+  }
+  .selfcard{
+      height: 51%;
+  }
+}

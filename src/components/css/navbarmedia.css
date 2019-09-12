@@ -1,0 +1,20 @@
+@media screen and (max-width:376px){
+    .navbar-toggler-icon{
+        background: #555 !important;
+    }
+    .selfnav{
+        padding-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .nav-item{
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (min-width:768px){
+    .selfnavbar{
+        width: 100%;
+    }
+}

@@ -1,0 +1,68 @@
+.office{
+    width:50%;
+    height: 100%;
+}
+.office>div:nth-child(1){
+    margin-bottom: 30px;
+}
+.md-24{
+    font-size: 30px;
+}
+.office>div:nth-child(1)>div>i,.office>div:nth-child(3)>div>i{
+  margin-right: 10px;
+  background: white;
+}
+h4{
+    opacity: 0.7;
+}
+
+.office>div:nth-child(1)>div,.office>div:nth-child(3)>div{
+    display: flex;
+}
+.office>div:nth-child(1)>p{
+    width: 90%;
+    opacity: 0.7;
+}
+.contactp{
+    display: flex;
+}
+
+.contactp>i{
+    margin-right: 5px;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.contactp>span{
+    font-weight: 700;
+    color: black;
+    text-shadow: 0 0 2px #777;
+    opacity: 0.7;
+    padding-right: 5px;
+}
+.office>div:nth-child(2){
+    margin-bottom: 20px;
+}
+.office>div:nth-child(3){
+    width: 90%;
+    height: 100px;
+}
+
+.office>div:nth-child(3) img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+#name,#email,#subject,#text{
+    color:red;
+    opacity: 0.9;
+}
+
+.office>div:nth-child(4){
+    width: 90%;
+    height: 200px;
+
+}
+
+
